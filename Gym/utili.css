@@ -1,0 +1,104 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.text-blue{
+    color: #0070C9;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ul-heading{
+    font-size: 24px;
+    padding: 0 0 13px 0;
+}
+
+.ul-price{
+    font-size: 16px;
+    padding: 0 0 18px 0;
+}
+
+.border{
+    border: 2px solid #0077CC;
+    border-radius: 10px;
+}
+
+.btn{
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    direction: ltr;
+    font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    min-width: 30px;
+    overflow: visible;
+    padding: 4px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#51A9EE, #147BCD);
+  border-color: #1482D0;
+  text-decoration: none;
+}
+
+.btn:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006DBC;
+  outline: none;
+}
+
+.btn:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}

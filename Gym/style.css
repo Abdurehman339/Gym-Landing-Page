@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.navbar{
+  display: flex;
+  margin: 0%;
+}
+
+.navbar li{
+  list-style: none;
+  margin: 0px 12px;
+}
+
+.container{
+  max-width: 80vw;
+  margin: auto;
+}
+
+.header{
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topleft{
+  width: 50%;
+  height: 50vh;
+}
+
+.topright{
+  width: 50%;
+  height: 50vh;
+}
+
+.section-1{
+  height: 60vh;
+}
+
+.section-1 h1{
+  font-size: 2rem;
+}
+
+.section-1 p{
+  font-size: 20px;
+}
+
+.dumbell{
+  width: 160px;
+  height: 120px;
+  align-self: center;
+}
+
+.manimg{
+  height: 60vh;
+  align-self: center;
+}
+
+.section-2 h1{
+  font-size: 28px;
+  margin: 15px 0px;
+}
+.section-2 p{
+  padding: 0 200px;
+  margin: 0;
+}
+
+.section-2-ul{
+  list-style: none;
+  padding: 0;
+}
+
+.section-2-pricing-ul-width{
+  min-width: 25%;
+}
+
+.section-2-pricing-ul-margin{
+  margin: 20px;
+}
+
+.pricing-ul-padding{
+  padding-bottom: 12px;
+}
+
+.section-2-div{
+  padding-top: 30px;
+}
+
+.section-3{
+  padding-bottom: 30px;
+}
+
+.section-3 h1{
+  font-size: 28px;
+  margin: 15px 0px;
+}
+
+.table{
+  border-collapse: collapse;
+}
+
+.section-3 table th{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 20%;
+}
+
+.section-3 table td{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 25%;
+}
